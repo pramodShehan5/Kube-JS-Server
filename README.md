@@ -18,6 +18,13 @@ $ kubectl get pods
 $ kubectl apply -f server-svc.yaml
 ```
 
+We can use this command without using yaml file.
+
+```sh
+$ kubectl expose deployment server --type=NodePort
+```
+
+
 ### 4. List all the services
 
 
